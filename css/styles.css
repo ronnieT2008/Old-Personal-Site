@@ -1,0 +1,199 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    --background-color:white;
+    --button-background-color:#11999E;
+    --top-container-background-color:#E4F9F5;
+    --text-color: black;
+    --h1-text-color: #66BFBF;
+    --h2-text-color: #66BFBF;
+    --h3-text-color: #11999E;
+    --copyright-text-color: #11999E;
+    --horizontal-rule-color: #66BFBF;
+    --border-color: black;
+    
+    
+    margin: 0;
+    text-align: center;
+    
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark{
+    --background-color:#333;
+    --button-background-color:#EB4A44;
+    --top-container-background-color:#F9E4E8;
+    --text-color: white;
+    --h1-text-color: #BF6666;
+    --h2-text-color: #BF6666;
+    --h3-text-color: #EB4A44;
+    --copyright-text-color: #EB4A44;
+    --horizontal-rule-color: #bf6666;
+    --border-color: white;
+
+    margin: 0;
+    text-align: center;
+    
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+h1{
+    color: var(--h1-text-color);
+    font-family: 'Edu SA Beginner', sans-serif;
+}
+
+h2{
+    color: var(--h2-text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+
+h3{
+    color: var(--h3-text-color);
+    font-family: 'Edu SA Beginner', sans-serif;
+    font-size: 1.3em;
+    text-decoration: solid;
+}
+
+a{
+    color: var(--copyright-text-color);
+    font-family: 'Edu SA Beginner', sans-serif;
+    margin: 20px;
+}
+
+p{
+    display: block;
+    font-family: 'Edu SA Beginner', sans-serif;
+}
+
+div{
+    display: block;
+}
+
+hr{
+    border: dotted var(--horizontal-rule-color) 5px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 4%;
+}
+
+.tittle{
+    margin-top: 0;
+    font-size: 5em;
+    padding-top: 75px;
+    text-align: center;
+    font-family: 'Edu SA Beginner', sans-serif;
+}
+
+.top-container{
+    background: var(--top-container-background-color);
+    position: relative;
+    height: 100vh;
+}
+
+.middle-container{
+    margin: 100px;
+}
+
+.bottom-container{
+    background: var(--top-container-background-color);
+    padding: 50px 0 20px;
+}
+
+.skating-img{
+    position: absolute;
+    width: 10%;
+    left: 30px;
+    top: 30px;
+}
+
+.pose-img{
+    position: absolute;
+    width: 12%;
+    right: 30px;
+    top: 30px;
+}
+
+.mountain1-img{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mountain2-img{
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    right: 0;
+}
+
+.cube-img{
+    width: 20%;
+    float: right;
+    margin: left;
+}
+
+#row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+#btn{
+    text-decoration: none;
+    background: var(--button-background-color);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Edu SA Beginner', cursive;
+    border: none;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 40px auto;
+}
+
+.copyright{
+    color: var(--copyright-text-color);
+    padding: 20px;
+}
+
+input{
+    outline: none;
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    text-align: left;
+    margin: 3px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 8px;
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+label{
+    font-size: 20px;
+}
+
+textarea{
+    margin-top: 10px;
+    max-width: 100%;
+    min-width: 20%;
+    max-height: 150px;
+    min-height: 150px;
+    outline: none;
+    border-radius: 8px;
+    border-color: var(--border-color);
+    background: var(--background-color);
+    color: var(--text-color);
+    text-align: left;
+    justify-content: center;
+}
+
