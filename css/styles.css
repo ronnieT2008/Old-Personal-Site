@@ -13,6 +13,7 @@ body{
     --copyright-text-color: #11999E;
     --horizontal-rule-color: #66BFBF;
     --border-color: black;
+    --back-to-top-color: #378FB3;
     
     
     margin: 0;
@@ -33,6 +34,7 @@ body.dark{
     --copyright-text-color: #EB4A44;
     --horizontal-rule-color: #bf6666;
     --border-color: white;
+    --back-to-top-color: #E62233;
 
     margin: 0;
     text-align: center;
@@ -201,4 +203,11 @@ textarea{
     color: var(--text-color);
     text-align: left;
     justify-content: center;
+}
+
+.back-to-top{
+    fill: var(--back-to-top-color);
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
 }
