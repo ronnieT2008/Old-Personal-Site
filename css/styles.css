@@ -139,6 +139,11 @@ hr{
     margin: left;
 }
 
+.about-row{
+    position: relative; 
+    right: 5px;
+}
+
 #row{
     width: 50%;
     margin: 100px auto 100px auto;
