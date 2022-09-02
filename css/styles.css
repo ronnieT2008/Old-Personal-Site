@@ -140,8 +140,10 @@ hr{
 }
 
 .about-row{
+    /* width: 22%; */
     position: relative; 
     right: 5px;
+    bottom: 5px;
 }
 
 #row{
