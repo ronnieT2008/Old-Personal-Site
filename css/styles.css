@@ -212,8 +212,10 @@ textarea{
     bottom: 0%;
 }
 
-/* .toggle-themes{
-    fill: var(--back-to-top-color);
+.toggle-themes{
     position: fixed;
     display: block;
-} */
+    bottom: 50px;
+    left: 0%;
+    cursor: pointer;
+}

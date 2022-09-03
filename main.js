@@ -1,9 +1,8 @@
-const toggleThemesBtn = document.querySelector('.toggle-themes-btn'); 
+const toggleThemesBtn = document.querySelector('.toggle-themes'); 
 
 renderTheme();
 
 toggleThemesBtn.addEventListener('click', () =>{
-    console.log('idk');
     document.body.classList.toggle('dark');
     saveTheme();
 })
