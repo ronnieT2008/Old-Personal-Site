@@ -13,8 +13,7 @@ body{
     --copyright-text-color: #11999E;
     --horizontal-rule-color: #66BFBF;
     --border-color: black;
-    --back-to-top-color: #378FB3;
-    
+    --back-to-top-url: url("./arrow-up-light.png");;
     
     margin: 0;
     text-align: center;
@@ -34,7 +33,7 @@ body.dark{
     --copyright-text-color: #EB4A44;
     --horizontal-rule-color: #bf6666;
     --border-color: white;
-    --back-to-top-color: #E62233;
+    --back-to-top-url: url("./arrow-up-dark.png");;
 
     margin: 0;
     text-align: center;
@@ -206,8 +205,15 @@ textarea{
 }
 
 .back-to-top{
-    fill: var(--back-to-top-color);
+    content: var(--back-to-top-url);
     position: fixed;
+    display: block;
     left: 0%;
     bottom: 0%;
 }
+
+/* .toggle-themes{
+    fill: var(--back-to-top-color);
+    position: fixed;
+    display: block;
+} */
